@@ -1,0 +1,85 @@
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+%% Elementos Pré Textuais
+%% ----------------------
+%% 
+%% Devem ser os seguintes (nessa ordem):
+%%  1. Capa (obrigatório)
+%%  2. Folha de rosto (obrigatório)
+%%  3. Errata (opcional)
+%%  4. Folha de aprovação (obrigatório)
+%%  5. Dedicatória (opcional)
+%%  6. Agradecimentos (opcional)
+%%  7. Epígrafe (opcional)
+%%  8. Resumo (obrigatório)
+%%  9. Abstract/Resumo em outra língua (obrigatório)
+%% 10. Lista de Ilustrações (opcional)
+%% 11. Lista de Tabelas (opcional)
+%% 12. Lista de Abreviaturas e Siglas (opcional)
+%% 13. Lista de Símbolos (opcional)
+%% 14. Sumário (obrigatório)
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+
+
+% 01: Capa
+\imprimircapa
+
+
+% 02: Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+\imprimirfolhaderosto*
+
+%% Ficha Catalográfica
+\input{include/pre-textual/ficha-catalografica}
+
+
+% 03: Errata
+\input{include/pre-textual/errata}
+
+
+% 04: Folha de Aprovação
+\input{include/pre-textual/folha-aprovacao}
+
+
+%% 05: Dedicatória
+\input{include/pre-textual/dedicatoria}
+
+
+%% 06: Agradecimentos
+\input{include/pre-textual/agradecimentos}
+
+
+%% 07: Epígrafe
+\input{include/pre-textual/epigrafe}
+
+
+%% 08: Resumo
+\input{include/pre-textual/resumo}
+
+
+%% 09: Abstract/Resumo em língua estrangeira
+\input{include/pre-textual/resumo-lingua-estrangeira}
+
+
+%% 10: Lista de Ilustrações
+\input{include/pre-textual/lista-ilustracoes}
+
+
+%% 11: Lista de Tabelas
+\input{include/pre-textual/lista-tabelas}
+
+
+%% 12: Lista de Abreviaturas e Siglas
+\input{include/pre-textual/siglas}
+
+
+%% 13: Lista de Símbolos
+\input{include/pre-textual/simbolos}
+
+
+%% 14: Sumário (o asterisco retira o próprio sumário do sumário)
+\input{include/pre-textual/sumario}
