@@ -31,7 +31,7 @@
 \documentclass[
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
-	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	% openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
 	oneside,			% twoside para impressão em recto e verso. Oposto a oneside
 	a4paper,			% tamanho do papel. 
 	% -- opções da classe abntex2 --
@@ -69,12 +69,23 @@
 % CONFIGURAÇÕES DE PACOTES
 % --- 
 
-\input{config/metadados}
-\input{config/citacoes}
-\input{config/cores}
-
+% Configuracoes do arquivo PDF gerado
 \input{config/pdf}
 
+% Tipografia
+% Abra este arquivo e selecione uma das opções de fonte nele. A padrão é Times.
+\input{config/tipografia}
+
+% Metadados
+\input{config/metadados}
+
+% Configuração das citações
+\input{config/citacoes}
+
+% Cores
+\input{config/cores}
+
+% Espacamentos
 \input{config/espacamentos}
 
 % ---
